@@ -1,33 +1,26 @@
 <template>
-  <div class="aboutMyself" v-bind:style="{ backgroundImage: 'url(' + image + ')' }" >
-     <h1>About Myself</h1>
-      Hi, I'm Nataly.
-        <p>I want to be a Frontend Developer.</p>
+  <div class="aboutMyself" >
+     <HeaderComponent></HeaderComponent>
+     <SkillsComponent></SkillsComponent>
+     
        
   </div>
   
 </template>
 <script>
-import image from "@/img/womanPhotoImg.jpg"
+
+import HeaderComponent from "@/components/HeaderComponent";
+import SkillsComponent from "@/components/SkillsComponent";
 
 export default {
-    data() {
-        return {
-            image: image
-        }
-    }
+    
+    components: {
+    HeaderComponent,
+    SkillsComponent,
+    
+  },
 }
 </script>
 <style>
-.aboutMyself{
-  padding-left: 60%;
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  font-size: 24px;
-  color:white;
-  line-height: 1.5;
 
-}
 </style>

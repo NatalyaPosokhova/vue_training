@@ -11,11 +11,11 @@ const routes = [
     name: 'AboutMyself',
     component: AboutMyself
   },
-  {
+   {
     path: '/hobbies',
     name: 'Hobbies',
     component: Hobbies
-  }
+  },
   ]
 
 const router = new VueRouter({
