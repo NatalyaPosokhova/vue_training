@@ -1,6 +1,6 @@
 <template>
   <div class="image_component" v-bind:style="{ backgroundImage: 'url(' + image2 + ')' }">
-  <img src = image2><img>
+  <img :src = "image2"><img>
   <SkillsComponent></SkillsComponent>
   </div>
 </template>

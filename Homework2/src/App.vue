@@ -1,18 +1,15 @@
 <template><!-- шаблон, в нём может находиться только 1 элемент div-->
+<!-- .app
+#nav 
+router-link(to="/aboutMyself") AboutMyself -->
   <div class="app">
     <div id="nav">
-      <!-- <router-link to="/">Home</!--> 
-      <!-- <router-link to="/about">About</router-link> -->
       <router-link to="/aboutMyself">AboutMyself</router-link>|
       <router-link to="/hobbies">Hobbies</router-link>|
-      
+    
     </div>
     <router-view class="view one"></router-view>
-   
-    <!-- <router-view class="view one"></router-view>
-    <router-view class="view two"></router-view>
-    <router-view class="view three"></router-view> -->
-    
+       
   </div>
 </template>
 <script>

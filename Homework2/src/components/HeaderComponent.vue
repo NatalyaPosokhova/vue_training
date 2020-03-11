@@ -1,4 +1,4 @@
-<template>
+<template lang="pug">
 
   <div class="header_component" v-bind:style="{ backgroundImage: 'url(' + image + ')' }" >
     <h1>About Myself</h1>

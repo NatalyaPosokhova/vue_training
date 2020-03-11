@@ -15,7 +15,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style scoped lang="stylus">
 li{
     
     margin-right: 30%;

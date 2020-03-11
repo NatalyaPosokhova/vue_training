@@ -1,6 +1,7 @@
 <template>
   <div class="skills_component">
     <b>О СЕБЕ</b>
+    {{image2}}
   </div>
 </template>
 <script>

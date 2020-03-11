@@ -1,4 +1,4 @@
-# homework_2
+# newhomework2
 
 ## Project setup
 ```
