@@ -1,22 +1,24 @@
 <template>
   <div class="aboutMyself" >
-     <HeaderComponent></HeaderComponent>
-     <SkillsComponent></SkillsComponent>
-     
+     <ImageAboutMyselfComponent></ImageAboutMyselfComponent>
+     <br/>
+      <br/>
+     <CombinedComponent></CombinedComponent>
+      
        
   </div>
   
 </template>
 <script>
 
-import HeaderComponent from "@/components/HeaderComponent";
-import SkillsComponent from "@/components/SkillsComponent";
+import ImageAboutMyselfComponent from "@/components/ImageAboutMyselfComponent";
+import CombinedComponent from "@/components/CombinedComponent";
 
 export default {
     
     components: {
-    HeaderComponent,
-    SkillsComponent,
+    ImageAboutMyselfComponent,
+    CombinedComponent,
     
   },
 }

@@ -1,12 +1,12 @@
 <template>
-  <div class="image_component" v-bind:style="{ backgroundImage: 'url(' + image2 + ')' }">
+  <div class="image_component">
   <img :src = "image2"><img>
-  <SkillsComponent></SkillsComponent>
+  
   </div>
 </template>
 <script>
 import image2 from "@/img/womanPhoto2Img.jpg"
-import SkillsComponent from "@/components/SkillsComponent";
+
 
 export default {
      data() {
@@ -16,8 +16,17 @@ export default {
     },
     props: ["image"],
   components: {
-    SkillsComponent,
+   
   },
     
 }
 </script>
+<style scoped>
+img {
+  width: 500px;
+  height: auto;
+  opacity: 0.75;
+  background-repeat: no-repeat;
+  
+}
+</style>

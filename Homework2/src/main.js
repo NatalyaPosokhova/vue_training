@@ -5,8 +5,8 @@ import store from './store'
 
 Vue.config.productionTip = false//флаг
 
-new Vue({
+ new Vue({
   router,
-  store,
+    store,
   render: h => h(App)//function
 }).$mount('#app')

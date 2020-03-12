@@ -1,6 +1,6 @@
 <template lang="pug">
 
-  <div class="header_component" v-bind:style="{ backgroundImage: 'url(' + image + ')' }" >
+  <div class="img_about_myself_component" v-bind:style="{ backgroundImage: 'url(' + image + ')' }" >
     <h1>About Myself</h1>
       <p>Hi, I'm Nataly.</p>
         <p>I want to be a Frontend Developer.</p>
@@ -18,7 +18,7 @@ export default {
 }
 </script>
 <style scoped>
-.header_component{
+.img_about_myself_component{
   padding-left: 60%;
   padding-top: 20px;
   text-align: center;
